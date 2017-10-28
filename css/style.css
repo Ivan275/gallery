@@ -1,0 +1,22 @@
+
+html { height: 100%; width: 100%; }
+body { height: 100%; width: 100%; margin: 0; padding: 0; border: 0; background: #FFFFFF;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+img { border: none; }
+table, tr, td, tr { border-collapse: collapse; vertical-align: top; text-align: left;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+a { color: #8D0D19;}
+
+#header { padding-left: 10px;padding-bottom: 5px; height: 50px;  width: auto; text-align: left; background: #0a2c4e; color: #D4E6F4; }
+#header h1 { float:left; }
+#header ul { padding-left: 250px; padding-top:5px; float:right;}
+#header ul li { padding: 1em; padding-right:40px; display:inline; font-style: bold; font-size:18px;}
+/* Note: IE 5 & 6 won't understand min-height */
+#header ul li a {text-decoration: none; color:white;}
+.account { background-color:#191919;}
+#main { min-height: 650px; width: auto; height:auto; background: #F2F2F2; padding: 2em;}
+
+#footer { height: 2em; padding: 1em; text-align: center; 
+  background: #151515;  color: #D4E6F4; }
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; }
