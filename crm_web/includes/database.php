@@ -21,6 +21,16 @@ Class Mydatabase{
 			die(" Database connection failed.");
 		}
 	}
+	public function open_connection2() {
+		//set up connection
+		$this->connection = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
+		if(mysqli_connect_errno()){
+			die(" Database connection failed.");
+		}
+		//echo "connected!";
+		return $this->connection;
+	}
+
 
 	public function close_connection() {
 		//close connection
